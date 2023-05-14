@@ -1,25 +1,29 @@
 .iconsMenu {
   display: flex;
+  gap: 27.4px;
+}
+
+.iconLink {
+  padding: 0 6.2px;
+  position: relative;
 }
 
 .iconsMenu svg {
-  width: 100%;
-  height: 100%;
+  max-width: 23.2px;
+  max-height: 23.2px;
 }
 
 .iconBubble {
-  background-color: #01a54e;
+  background-color: var(--orange);
   border-radius: 50%;
-  color: #ffffff;
-  font-size: 14px;
-  width: 22px;
-  height: 22px;
-  line-height: 1.25;
+  color: var(--white);
+  font-size: 15px;
+  width: 17.4px;
+  height: 18px;
   display: flex;
   align-items: center;
   justify-content: center;
-  box-sizing: border-box;
   position: absolute;
-  bottom: 60%;
-  left: 70%;
+  top: -25%;
+  right: -10%;
 }

@@ -1,5 +1,7 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { MainLayout } from '../../layouts/MainLayout';
+import { Contacts } from '../../layouts/Contacts';
+import { NotFound } from '../../layouts/NotFound';
 import './app.css';
 
 function App() {
@@ -9,6 +11,8 @@ function App() {
         <Routes>
           <Route path="/" element={<MainLayout />}>
             <Route index element={<></>} />
+            <Route path="contacts" element={<Contacts />} />
+            <Route path="*" element={<NotFound />} />
           </Route>
         </Routes>
       </div>

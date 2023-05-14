@@ -1,6 +1,6 @@
 import Logo from '../Logo/Logo';
-import s from './header.module.css';
 import { IconsMenu } from '../IconsMenu/IconsMenu';
+import s from './header.module.css';
 
 function Header() {
   return (
