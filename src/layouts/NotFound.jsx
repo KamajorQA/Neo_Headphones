@@ -1,5 +1,4 @@
 import Vincent from '../assets/img/Vincent.jpg';
-// import s from './notFound.module.css';
 
 function NotFound() {
   return (

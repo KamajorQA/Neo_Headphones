@@ -1,0 +1,7 @@
+.catalogue {
+  flex: 1;
+  margin: 28px 0 18px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 28.35px;
+}
