@@ -6,14 +6,9 @@ function CardList({ title, goods = [] }) {
     <section className={s.wrapper}>
       <article className={s.title}>{title}</article>
       <article className={s.grid}>
-        {/* <img src={goods[0].cardImg} /> */}
         {goods.length &&
           goods.map((headset) => (
-            <Card
-              key={headset.slug}
-              {...headset}
-              // onProductLike={onProductLike}
-            />
+            <Card key={headset.slug} {...headset} product={headset} />
           ))}
       </article>
     </section>
